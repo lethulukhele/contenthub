@@ -1,0 +1,22 @@
+{
+  "name": "laravel/contenthub",
+  "description": "ContentHub - Headless CMS built with PHP and Laravel",
+  "type": "project",
+  "require": {
+    "php": "^8.1",
+    "laravel/framework": "^10.0",
+    "laravel/sanctum": "^3.0",
+    "spatie/laravel-permission": "^5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0",
+    "laravel/pint": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Database\\Factories\\": "database/factories/",
+      "Database\\Seeders\\": "database/seeders/"
+    }
+  }
+}
