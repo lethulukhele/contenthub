@@ -1,0 +1,30 @@
+# Laravel
+/node_modules
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+laravel.log
+storage/logs/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+bootstrap/cache/*
+storage/cache/*
+
+# Uploads
+storage/uploads/*
+
+# Build
+/public/css/app.css
+/public/js/app.js
